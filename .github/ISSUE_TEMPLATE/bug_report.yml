@@ -95,17 +95,11 @@ body:
     validations:
       required: false
   - type: textarea
-    id: media
-    attributes:
-      label: Screenshots or video
-      description: |
-        If the issue is visual or gameplay-related, screenshots or a short video can be very helpful.
-        You can drag and drop files directly into this report.
-    validations:
-      required: false
-  - type: textarea
     id: additional-info
     attributes:
       label: Any additional information
+      description: |
+        If the issue is visual or gameplay-related, screenshots or a short video can be very helpful.
+        You can drag and drop files directly into this report.
     validations:
       required: false
