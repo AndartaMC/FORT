@@ -3,7 +3,7 @@ description: File a bug report
 title: "[Bug]: "
 labels: ["bug"]
 assignees:
-  - Eiruna
+  - AndartaMC
 body:
   - type: markdown
     attributes:
@@ -17,32 +17,95 @@ body:
       options:
         - label: I have searched for existing issues
           required: true
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: What happened?
-      value: "A bug happened!"
-    validations:
-      required: true
-  - type: textarea
-    id: what-was-expected
-    attributes:
-      label: What did you expect to happen?
-      value: "No bug should happen!"
-    validations:
-      required: true
   - type: dropdown
-    id: version
+    id: modpack-version
     attributes:
       label: Version
-      description: What version of the modpack are you using?
+      description: Modpack version
       options:
         - 1.0.0
     validations:
       required: true
+  - type: dropdown
+    id: minecraft-version
+    attributes:
+      label: Version
+      description: Minecraft version
+      options:
+        - 1.21.1
+    validations:
+      required: true
+  - type: dropdown
+    id: loader-version
+    attributes:
+      label: Version
+      description: Loader version
+      options:
+        - Fabric 0.19.5
+    validations:
+      required: true
+  - type: textarea
+    id: modifications
+    attributes:
+      label: |
+        Have you modified the modpack? If so, what did you change?
+        Please list any added, removed, or updated mods, datapacks, resource packs, shaders, or configuration changes.
+        If the pack is unmodified, write "None".
+      placeholder: I added mod X
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      placeholder: Describe the problem in detail.
+    validations:
+      required: true
+  - type: textarea
+    id: reproducing
+    attributes:
+      label: How can the issue be reproduced?
+      placeholder: |
+        1. Create a new world
+        2. ...
+        3. ...
+    validations:
+      required: false
+  - type: textarea
+    id: what-was-expected
+    attributes:
+      label: What did you expect to happen?
+      placeholder: Describe your expectations in detail.
+    validations:
+      required: false
   - type: textarea
     id: logs
     attributes:
       label: Relevant log output
       description: Please copy and paste any relevant logs.
       render: shell
+    validations:
+      required: false
+  - type: textarea
+    id: crash-report
+    attributes:
+      label: Relevant crash report
+      description: Please copy and paste the crash report file if applicable.
+      render: shell
+    validations:
+      required: false
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots or video
+      description: |
+        If the issue is visual or gameplay-related, screenshots or a short video can be very helpful.
+        You can drag and drop files directly into this report.
+    validations:
+      required: false
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Any additional information
+    validations:
+      required: false

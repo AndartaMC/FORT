@@ -1,0 +1,59 @@
+name: 💡 Feature Request
+description: Suggest how we can make the modpack better
+title: "[FR]: "
+labels: ["feature"]
+assignees:
+  - AndartaMC
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a new feature!
+  - type: dropdown
+    id: feature-type
+    attributes:
+      label: Feature type
+      description: What area would this feature affect?
+      options:
+        - Gameplay
+        - How the game looks
+        - Progression
+        - Performance
+        - Audio
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: |
+        What is your suggestion?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: |
+        Why would this feature be useful?
+      description: |
+        Describe the problem it would solve or how it would improve the experience.
+    validations:
+      required: false
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: |
+        Have you considered any alternatives?
+      description: |
+        Are there other ways the problem could be solved?
+    validations:
+      required: false
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: |
+        Any additional information
+        Feel free to add screenshots, examples, or references
+        You can drag and drop files directly into this report.
+    validations:
+      required: false
