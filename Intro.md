@@ -99,16 +99,10 @@ Big thanks to Complementary Shaders for making our games beautiful.
 
 ## Issues
 
-Feel free to report any issues on GitHub.
+Feel free to ask questions, report issues or make feature requests on GitHub.
 
-Before reporting an issue check if a similar issue has already been reported.
+Please use the template that fits your purpose.
 
-When reporting an issue please include the following information:
-* A clear title - this especially makes it easier for others to find information about similar issues in the future.
-* Have you edited the modpack in any way, this includes adding, removing or updating mods, datapacks, resource packs and shaders, as well as configuration updates.
-* How to reproduce the issue. Providing concrete steps for reproducing the issue is invaluable. The more you explain what happened the better, include anything you think might be relevant.
-* Expected and actual result. If it might be unclear what the expected outcome of your actions was make sure to explain in what way the result was incorrect.
-* Share the log files and crash reports if possible.
-* Minecraft version, modpack version and loader version
+[GitHub](https://github.com/AndartaMC/FORT/issues)
 
 If you experience issues related to Complementary Shaders, in particular issues involving the custom shader support provided by Enhanced Celestials 2, please report them to the modpack Author. Some issues may result from interactions between the shaders and other mods in the pack.
