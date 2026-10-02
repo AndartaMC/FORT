@@ -1,0 +1,48 @@
+name: 🐛 Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug"]
+assignees:
+  - Eiruna
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: checkboxes
+    id: existing-issue
+    attributes:
+      label: Has this issue already been reported?
+      description: Please have a quick look at old bug reports to see if your issue has already been addressed.
+      options:
+        - label: I have searched for existing issues
+          required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: textarea
+    id: what-was-expected
+    attributes:
+      label: What did you expect to happen?
+      value: "No bug should happen!"
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: What version of the modpack are you using?
+      options:
+        - 1.0.0
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant logs.
+      render: shell
