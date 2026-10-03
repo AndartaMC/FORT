@@ -93,11 +93,15 @@ Big thanks to Complementary Shaders for making our games beautiful.
 
 [Complementary Shaders - Reimagined (CurseForge)](https://www.curseforge.com/minecraft/shaders/complementary-reimagined)
 
+## Known Issues
+
+Skeleton attack animations may look incorrect for mobs spawned on Day 1. This is caused by the custom aggro distance being lower than vanilla. For a few ticks, skeletons can raise their bows before the custom aggro distance rule takes effect. This is a visual issue only. The issue can persist for Day 1 skeletons until they are killed or despawn.
+
 ## Known Log Messages
 
 `Block-attached entity at invalid position` This message can appear on world creation and when the structure spawn point is reset. It appears to be caused by entity generation in the Starter Fort but exact cause is unkown. The error is not fatal and can safely be ignored.
 
-## Issues
+## Feedback
 
 Feel free to ask questions, report issues or make feature requests on GitHub.
 
