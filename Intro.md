@@ -1,6 +1,8 @@
 # FORT - Fortify, Outlast, Reclaim, Thrive
 
-## Welcome Home
+## Always return to your Fort before dark.
+
+![Path back home blocked by mobs](https://media.forgecdn.net/attachments/1998/150/2026-10-01t22_21_46-jpg.jpg)
 
 As your vision clears, you see it for the first time. The Fort.
 
@@ -26,15 +28,17 @@ You run. Focused on the one thing you know for certain:
 
 * Always start inside a carefully engineered Fort that is meant to be a long-term home
 * Hostile mobs spawn during the day
-* Tweaked mob difficulty makes staying outside for long periods of time tricky
+* Mobs detect you from further away
 * Mobs can destroy your light sources
 * Blood Moons drastically increase difficulty some nights
-* Food is likely to be hard to come by
+* Food can be difficult to come by
 * Custom mob encounters inside the Fort
 * Secrets, hidden passages and underground areas in the Fort
 * Complementary Shaders
 
-## Getting Started
+## Welcome Home
+
+![The first thing you see is a beautiful courtyard](https://media.forgecdn.net/attachments/1998/160/2026-09-26t16_18_59-jpg.jpg)
 
 Getting into the game is as simple as installing the pack and creating a world. Surviving is definitely not as simple.
 
@@ -42,7 +46,7 @@ FORT is an **apocalypse** themed modpack.
 
 The idea is simple. The world outside is dangerous. The Fort is safe.
 
-The longer you stay outside the more dangerous things become.
+The longer you stay outside the more mobs will be coming for you.
 
 Prepare well. Venture out. Grab only what you need. And get back before dark.
 
@@ -60,27 +64,27 @@ If you find that your Fort is in a very awkward location you can change it by ru
 
 ## Core Mods
 
-**Ohayden's Mob Control** is in charge of the difficulty progression by adjusting mob follow distance.
+[**Ohayden's Mob Control**](https://www.curseforge.com/minecraft/mc-mods/ohaydens-mob-control) is in charge of the difficulty progression by adjusting mob follow distance.
 
-**Universal Graves** will keep your items safe if you happen to die. Plan and prepare before attempting to reclaim what you lost, you have time.
+[**Universal Graves**](https://www.curseforge.com/minecraft/mc-mods/universal-graves) will keep your items safe if you happen to die. Plan and prepare before attempting to reclaim what you lost, you have time.
 
-**Bridging Mod** helps with block placement so that you can build your way out of sticky situations.
+[**Bridging Mod**](https://www.curseforge.com/minecraft/mc-mods/bridging-mod) helps with block placement so that you can build your way out of sticky situations.
 
-**Light Overlay** will help you see block light levels when you press F7 (by default) so that you can make sure your Fort remains safe.
+[**Light Overlay**](https://www.curseforge.com/minecraft/mc-mods/lightoverlay) will help you see block light levels when you press F7 (by default) so that you can make sure your Fort remains safe.
 
 ## Mods made for this pack
 
-**Mobs Love Darkness** makes some mobs hunt your light sources.
+[**Mobs Love Darkness**](https://www.curseforge.com/minecraft/mc-mods/mobs-love-darkness) makes some mobs hunt your light sources.
 
-**Mobs Love Sunlight** lets mobs spawn during the day.
+[**Mobs Love Sunlight**](https://www.curseforge.com/minecraft/mc-mods/mobs-love-sunlight) lets mobs spawn during the day.
 
-**Structure Spawn Point** locates a structure and sets it as world spawn. It is looking for the structure **Starter Fort** that was also made specifically for this modpack. Additionally, Structure Spawn Point and Starter Fort are working together to create enemy encounters in the barricaded tower. Starter Fort can be used on its own, using it together with Structure Spawn point is not a requirement, just a way to enhance the experience.
+[**Structure Spawn Point**](https://www.curseforge.com/minecraft/mc-mods/structure-spawn-point) locates a structure and sets it as world spawn. It is looking for the structure **Starter Fort** that was also made specifically for this modpack. Additionally, Structure Spawn Point and Starter Fort work  together to create enemy encounters in the barricaded tower. Starter Fort can be used on its own. Using it together with Structure Spawn Point is not required, but doing so enhances the experience.
 
 ## Recommendations
-* Start a new world
-* Use the Starter Fort datapack, it is included and enabled by default as long as you don't remove **Global Packs**
+* Start a new world when beginning a new playthrough - while possible to use an old world, you will immediately get teleported into your Fort which could be far away from where you were
+* Keep the **Starter Fort** datapack enabled, it is included and enabled by default through **Global Packs**
 * Modifying the Mob Control spawn rules might change your experience significantly, make sure you know how the rules work before you edit them
-* Use whatever shaders suit you, Complementary Shaders is my preference and my intended visual presentation
+* Use whatever shaders suit you. Complementary Shaders is my preference and my intended visual presentation
 
 ## Credits
 
@@ -95,18 +99,25 @@ Big thanks to Complementary Shaders for making our games beautiful.
 
 ## Known Issues
 
-Skeleton attack animations may look incorrect for mobs spawned on Day 1. This is caused by the custom aggro distance being lower than vanilla. For a few ticks, skeletons can raise their bows before the custom aggro distance rule takes effect. This is a visual issue only. The issue can persist for Day 1 skeletons until they are killed or despawn.
+Skeleton attack animations may look incorrect for skeletons spawned on Day 1. This is caused by the custom aggro distance being lower than vanilla. For a few ticks when spotting you, skeletons can raise their bows before the custom aggro distance rule takes effect. This is a visual issue only. The issue can persist for Day 1 skeletons until they are killed or despawn.
 
 ## Known Log Messages
 
-`Block-attached entity at invalid position` This message can appear on world creation and when the structure spawn point is reset. It appears to be caused by entity generation in the Starter Fort but exact cause is unkown. The error is not fatal and can safely be ignored.
+`Block-attached entity at invalid position` This message can appear when creating a new world and when resetting the structure spawn point. It appears to be related to entity generation in the Starter Fort but the exact cause is unknown. The error is not fatal and can safely be ignored.
 
 ## Feedback
 
 Feel free to ask questions, report issues or make feature requests on GitHub.
 
-Please use the template that fits your purpose.
+Please use the template that best fits your purpose.
 
-[GitHub](https://github.com/AndartaMC/FORT/issues)
+[GitHub Issue Tracker](https://github.com/AndartaMC/FORT/issues)
 
 If you experience issues related to Complementary Shaders, in particular issues involving the custom shader support provided by Enhanced Celestials 2, please report them to the modpack Author. Some issues may result from interactions between the shaders and other mods in the pack.
+
+## Requirements
+
+* Minecraft 1.21.1
+* Fabric Loader 0.19.5
+* Java 21
+* 6–8 GB RAM recommended
