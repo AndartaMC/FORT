@@ -30,7 +30,6 @@ You run. Focused on the one thing you know for certain:
 * Hostile mobs spawn during the day
 * Mobs detect you from further away
 * Mobs can destroy your light sources
-* Blood Moons drastically increase difficulty some nights
 * Food can be difficult to come by
 * Custom mob encounters inside the Fort
 * Secrets, hidden passages and underground areas in the Fort
@@ -52,8 +51,6 @@ Prepare well. Venture out. Grab only what you need. And get back before dark.
 
 Always know where your next meal is coming from. A food shortage can lead to disaster.
 
-When the Blood Moon rises, fighting is not always an option.
-
 Light only offers protection as long as you can keep your light sources safe from the mobs that hunt them.
 
 **The compass will always guide you home.**
@@ -64,13 +61,15 @@ If you find that your Fort is in a very awkward location you can change it by ru
 
 ## Core Mods
 
-[**Ohayden's Mob Control**](https://www.curseforge.com/minecraft/mc-mods/ohaydens-mob-control) is in charge of the difficulty progression by adjusting mob follow distance.
+[**Ohayden's Mob Control**](https://www.curseforge.com/minecraft/mc-mods/ohaydens-mob-control) is in charge of the difficulty progression by adjusting mob spawn rates and follow distance.
+
+[**Farsighted Mobs**](https://www.curseforge.com/minecraft/mc-mods/farsighted-mobs) increases the aggro distance.
 
 [**Universal Graves**](https://www.curseforge.com/minecraft/mc-mods/universal-graves) will keep your items safe if you happen to die. Plan and prepare before attempting to reclaim what you lost, you have time.
 
 [**Bridging Mod**](https://www.curseforge.com/minecraft/mc-mods/bridging-mod) helps with block placement so that you can build your way out of sticky situations.
 
-[**Light Overlay**](https://www.curseforge.com/minecraft/mc-mods/lightoverlay) will help you see block light levels when you press F7 (by default) so that you can make sure your Fort remains safe.
+[**More Overlays Updated**](https://www.curseforge.com/minecraft/mc-mods/more-overlays-updated) will help you see block light levels when you press F7 (by default) so that you can make sure your Fort remains safe.
 
 ## Mods made for this pack
 
@@ -85,6 +84,7 @@ If you find that your Fort is in a very awkward location you can change it by ru
 * Keep the **Starter Fort** datapack enabled, it is included and enabled by default through **Global Packs**
 * Modifying the Mob Control spawn rules might change your experience significantly, make sure you know how the rules work before you edit them
 * Use whatever shaders suit you. Complementary Shaders is my preference and my intended visual presentation
+* Flashback mod is compatible
 
 ## Credits
 
@@ -96,10 +96,6 @@ Big thanks to Complementary Shaders for making our games beautiful.
 [Complementary Shaders - Reimagined (Modrinth)](https://modrinth.com/shader/complementary-reimagined)
 
 [Complementary Shaders - Reimagined (CurseForge)](https://www.curseforge.com/minecraft/shaders/complementary-reimagined)
-
-## Known Issues
-
-Skeleton attack animations may look incorrect for skeletons spawned on Day 1. This is caused by the custom aggro distance being lower than vanilla. For a few ticks when spotting you, skeletons can raise their bows before the custom aggro distance rule takes effect. This is a visual issue only. The issue can persist for Day 1 skeletons until they are killed or despawn.
 
 ## Known Log Messages
 
@@ -113,7 +109,7 @@ Please use the template that best fits your purpose.
 
 [GitHub Issue Tracker](https://github.com/AndartaMC/FORT/issues)
 
-If you experience issues related to Complementary Shaders, in particular issues involving the custom shader support provided by Enhanced Celestials 2, please report them to the modpack Author. Some issues may result from interactions between the shaders and other mods in the pack.
+If you experience issues related to Complementary Shaders please report them to the modpack Author. Some issues may result from interactions between the shaders and other mods in the pack.
 
 ## Requirements
 
